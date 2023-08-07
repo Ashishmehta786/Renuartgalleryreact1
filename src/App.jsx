@@ -90,7 +90,7 @@ const App = () => {
         /></div>
        
          <div id="animals" className="section2">Object<img
-          src={object2"
+          src={object2}
           alt="Your Image"
           className="image"
         />
