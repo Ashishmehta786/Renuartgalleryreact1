@@ -59,7 +59,7 @@ const App = () => {
         
         
         <div >
-        <h6 className="aboutme">Myself renu currently studying in my 2nd year of undergraduate program at NIFT gandhinagar.I got 8.44 cgpa in my 1st year . Below are my arts showcased. </h6></div>
+        <h6 className="aboutme">I am renu currently studying in my 2nd year of undergraduate program at NIFT gandhinagar.I got 8.44 cgpa in my 1st year . Below are my arts showcased. </h6></div>
         </div>
       
        
