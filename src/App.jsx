@@ -1,7 +1,7 @@
 
 import './App.css';
 import React, { useState, useRef } from 'react';
-import TubeFiller from './TubeFiller.jsx';
+
 import music from './musics.mp3'
 import animal1 from './allimages/animal1.jpg'
 import animal2 from './allimages/animal2.jpg'
@@ -56,12 +56,10 @@ const App = () => {
       
       <audio ref={audioRef} src={music} />
       <div id="about" className="section">About
-        <div className="app-container"> 
-          <TubeFiller />
-          
-        </div>
-        <div classNams="aboutme">
-        <h6>Myself renu currently studying in my 2nd year of undergraduate program at NIFT gandhinagar. Below are my arts showcased. </h6></div>
+        
+        
+        <div >
+        <h6 className="aboutme">Myself renu currently studying in my 2nd year of undergraduate program at NIFT gandhinagar.I got 8.44 cgpa in my 1st year . Below are my arts showcased. </h6></div>
         </div>
       
        
@@ -78,7 +76,7 @@ const App = () => {
       </div>
       <div id="insects" className="section3">Insects Section
       <img
-          src={insect1}
+          src={i1}
           alt="Your Image"
           className="image"
         /></div>
@@ -108,37 +106,33 @@ const App = () => {
     
       
       <div id="human" className="section5">Human Potrait Section<img
-          src={human}
+          src={h1}
           alt="Your Image"
           className="image"
         /></div>
       <div id="human2" className="section5">Human Potrait<img
-          src={human2}
+          src={h2}
           alt="Your Image"
           className="image"
         /> </div>
       <div id="human3" className="section5">Human Potrait<img
-          src={human3}
+          src={h3}
           alt="Your Image"
           className="image"
         /></div>
       <div id="human4" className="section5">Human Potrait<img
-          src={human4}
+          src={h4}
           alt="Your Image"
           className="image"
         /></div>
        <div id="human5" className="section5">Human Potrait<img
-          src={human5}
-          alt="Your Image"
-          className="image"
-        /></div><div id="human5" className="section5">Human Potrait<img
-          src={human5}
+          src={h5}
           alt="Your Image"
           className="image"
         /></div>
     
     <div id="human6" className="section5">Human Potrait<img
-          src={human6}
+          src={h6}
           alt="Your Image"
           className="image"
         />

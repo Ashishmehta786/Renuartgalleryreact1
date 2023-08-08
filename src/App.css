@@ -56,7 +56,7 @@ body {
 
 /* Section styles */
 .section {
-  min-height: 400px;
+  min-height: 300px;
   margin: 20px 0;
   padding: 20px;
   border: 1px solid #d8d8d8;
@@ -281,6 +281,8 @@ p {
 }
 
 .aboutme{
-  padding:2px 2px; 
+   margin-top:25px;
+  padding:10px 10px; 
+  margin-bottom:25px;
   border: 2px white;
 }
