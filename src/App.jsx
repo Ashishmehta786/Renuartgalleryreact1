@@ -3,19 +3,19 @@ import './App.css';
 import React, { useState, useRef } from 'react';
 
 import music from './musics.mp3'
-import animal1 from './allimages/animal1.svg'
-import animal2 from './allimages/animal2.svg'
-  import object1 from './allimages/object1.svg'
-    import object2 from './allimages/object2.svg'
-import object3 from './allimages/object3.svg'
-import object4 from './allimages/object4.svg'
-  import h1 from './allimages/human.svg'
-  import h2 from './allimages/human2.svg'
-  import h3 from './allimages/human3.svg'
-import h4 from './allimages/human4.svg'
-import h5 from './allimages/human5.svg'
-  import h6 from './allimages/human6.svg'
-    import i1 from './allimages/insect1.svg'
+import animal1 from './allimages/animal1.jpg'
+import animal2 from './allimages/animal2.jpg'
+  import object1 from './allimages/object1.jpg'
+    import object2 from './allimages/object2.jpg'
+import object3 from './allimages/object3.jpg'
+import object4 from './allimages/object4.jpg'
+  import h1 from './allimages/human.jpg'
+  import h2 from './allimages/human2.jpg'
+  import h3 from './allimages/human3.jpg'
+import h4 from './allimages/human4.jpg'
+import h5 from './allimages/human5.jpg'
+  import h6 from './allimages/human6.jpg'
+    import i1 from './allimages/insect1.jpg'
       
 
 const App = () => {
